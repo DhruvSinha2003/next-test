@@ -1,3 +1,10 @@
+import Hello from "./components/hello";
 export default function Home() {
-  return <div className="text-3xl">Hello</div>;
+  console.log("hello");
+  return (
+    <>
+      <div className="text-3xl">Hello</div>
+      <Hello />
+    </>
+  );
 }
